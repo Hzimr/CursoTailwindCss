@@ -8,6 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        casa1Background: "url('../public/Casa1.png')",
+        casa2Background: "url('../public/Casa2.png')",
+        casa3Background: "url('../public/Casa3.png')",
+        casa4Background: "url('../public/Casa4.png')",
+        casa5Background: "url('../public/Casa5.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
