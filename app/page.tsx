@@ -11,19 +11,20 @@ export default function Home() {
         </h1>
       </div>
       <div className="bg-white shadow-md box-border border-solid border-8 rounded-md">
+        {/* Início*/}
         <div className="">
           <div>
             <img className="size-48" src={Cover.src} alt="" />
           </div>
-        </div>
-        <div>
-          <span>Class Warfare</span>
-          <span>The Anti-Patterns</span>
-          <span>
-            <span>No. 4</span>
-            <span>·</span>
-            <span>2025</span>
-          </span>
+          <div>
+            <span>Class Warfare</span>
+            <span>The Anti-Patterns</span>
+            <span>
+              <span>No. 4</span>
+              <span>·</span>
+              <span>2025</span>
+            </span>
+          </div>
         </div>
       </div>
     </main>
