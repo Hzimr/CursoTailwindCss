@@ -12,16 +12,24 @@ export default function Home() {
       </div>
       <div className="bg-white shadow-md box-border border-solid border-8 rounded-md">
         {/* Início*/}
-        <div className="">
+        <div className="flex flex-col items-center gap-6 p-7 md:flex-row md:gap-6 rounded-2xl">
           <div>
-            <img className="size-48" src={Cover.src} alt="" />
+            <img
+              className="size-48 shadow-xl rounded-md"
+              src={Cover.src}
+              alt=""
+            />
           </div>
-          <div>
-            <span>Class Warfare</span>
-            <span>The Anti-Patterns</span>
-            <span>
+          <div className="flex flex-col items-center md:items-start">
+            <span className="font-sans font-medium text-2xl">
+              Class Warfare
+            </span>
+            <span className="font-semibold text-sky-500">
+              The Anti-Patterns
+            </span>
+            <span className="flex gap-2 font-medium text-gray-600">
               <span>No. 4</span>
-              <span>·</span>
+              <span className="text-lg font-bold">·</span>
               <span>2025</span>
             </span>
           </div>

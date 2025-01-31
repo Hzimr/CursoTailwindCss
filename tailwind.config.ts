@@ -18,6 +18,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primaria: "#e60076",
+      },
+      backgroundColor: {
+        principal: "#FFFFFF",
       },
     },
   },
